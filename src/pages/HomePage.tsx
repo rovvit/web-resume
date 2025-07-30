@@ -4,9 +4,8 @@ import {ReactComponent as Logo} from '../assets/logo.svg';
 import styles from './HomePage.module.css';
 import DownloadButton from "../components/Buttons/DownloadButton";
 
-
 const HomePage: React.FC = () => {
-    const tags = ['QA Engineer', 'Automation', 'API', 'Python', 'Kotlin', 'SQL', 'Left-Shift', 'T-Shape'];
+    const tags = ['ISTQB® Certified QA Engineer', 'Automation', 'API', 'Python', 'Kotlin', 'SQL', 'Left-Shift', 'T-Shape'];
 
     return (
         <Layout className={styles.fullHeight}>
