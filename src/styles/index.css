@@ -1,0 +1,59 @@
+@import './reset.css';
+@import './variables.css';
+
+/* Базовые стили */
+:root {
+    --color-120: #001c33;
+    --color-primary: #002D53;
+    --color-90:  #123e66;
+    --color-80:  #245f79;
+    --color-70:  #367f8c;
+    --color-60:  #48a09f;
+    --color-50:  #5ac1b2;
+    --color-40:  #6ce2c5;
+    --color-30:  #7df2d8;
+    --color-20:  #8ff3e9;
+    --color-secondary:  #94DBF3;
+    --color-9:  #A0DFF4;
+    --color-8:  #ACE3F6;
+    --color-7:  #B8E7F7;
+    --color-6:  #C4EBF8;
+    --color-5:  #CFEFFA;
+    --color-4:  #DBF3FB;
+    --color-3:  #E7F7FC;
+    --color-2:  #F3FBFE;
+    --color-1:  #FFFFFF;
+    --color-linked-in: #0A66C2;
+    --color-linked-in-dark: #064580;
+}
+
+:global(main) {
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 90%;
+    border: black solid 10px;
+}
+
+html {
+    font-size: 25%; /* 4px */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}

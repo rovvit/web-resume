@@ -1,0 +1,24 @@
+.mercadoMatch {
+    transition: color 0.3s;
+    width: 100%;
+    height: 100%;
+    fill: var(--color-linked-in);
+    padding: 0;
+}
+
+.mercadoMatch:hover {
+    fill: var(--color-linked-in-dark);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}

@@ -1,0 +1,67 @@
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    border-bottom: 1px solid #eee;
+    color: var(--color-primary);
+    font-size: 4rem;
+    min-height: 36px;
+}
+
+.nav {
+    font-size: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    margin-right: 10%;
+    gap: 8rem
+}
+
+.logo {
+    min-width: 256px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+    margin-left: 10%;
+}
+
+.name {
+    margin-left: 10%;
+    font-size: 8rem;
+}
+
+.logoIcon {
+    height: 64%;
+    width: auto;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        font-size: 3rem;
+        padding: 0.5rem;
+        gap: 1rem;
+    }
+
+    .logo {
+        font-size: 6rem;
+        padding: 0.5rem;
+    }
+}
+
+.linkedin_button {
+    border: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    max-height: 40px;
+}
+
+.filler {
+    flex: 1;
+}

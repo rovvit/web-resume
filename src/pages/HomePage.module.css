@@ -1,0 +1,60 @@
+.logo {
+    width: 30%;
+    height: auto;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentWrapper{
+    margin: 2%;
+    padding: 4%;
+    background-color: var(--color-3);
+    border-radius: 5rem;
+}
+
+.fullHeight {
+    overflow: hidden;
+}
+
+.name {
+    font-size: 16rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1rem;
+}
+
+.tags {
+
+}
+
+.tag {
+    border: solid 1px grey;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem 2rem;
+}
+
+.description p {
+    margin: 4rem 0 4rem 4rem;
+    line-height: 1.5;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 6rem;
+    text-align: justify;
+}
+.description strong {
+    font-weight: bold;
+}
+.description p:last-child {
+    margin-bottom: 0;
+}
+
+.buttonWrapper {
+    margin-left: 8rem;
+}
