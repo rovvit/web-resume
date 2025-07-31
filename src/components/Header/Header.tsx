@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "./Header.module.css";
 import LinkedInButton from "../Buttons/LinkedInButton";
+import TelegramButton from "../Buttons/TelegramButton";
+import MailButton from "../Buttons/MailButton";
 
 const Header: React.FC = () => {
     return (
@@ -8,14 +10,19 @@ const Header: React.FC = () => {
             <div className={styles.logo}>
                 <div className={styles.name}>Vitalii Sidorov</div>
             </div>
-            <div className={styles.linkedin_button}>
-                <LinkedInButton />
-            </div>
             <div className={styles.filler}/>
             <nav className={styles.nav}>
                 <a href="/">Home</a>
-                <a href="/contacts">Contacts</a>
             </nav>
+            <div className={styles.button}>
+                <LinkedInButton />
+            </div>
+            <div className={styles.button}>
+                <TelegramButton />
+            </div>
+            <div className={styles.button}>
+                <MailButton />
+            </div>
         </header>
     );
 };

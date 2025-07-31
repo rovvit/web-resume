@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 10% 0 2rem;
     border-bottom: 1px solid #eee;
     color: var(--color-primary);
     font-size: 4rem;
@@ -15,8 +15,8 @@
     display: flex;
     justify-content: flex-end;
     padding: 2rem;
-    margin-right: 10%;
-    gap: 8rem
+    gap: 8rem;
+    margin-right: 2rem;
 }
 
 .logo {
@@ -52,14 +52,15 @@
     }
 }
 
-.linkedin_button {
+.button {
     border: none;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
-    max-height: 40px;
+    margin: 1rem;
+    max-height: 32px;
 }
 
 .filler {
